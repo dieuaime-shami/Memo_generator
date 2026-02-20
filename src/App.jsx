@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import MainComponent from './Components/MainComponent'
+import HeadComponent from './Components/HeadComponent'
 
 
 function App() {
@@ -8,7 +10,8 @@ function App() {
 
   return (
     <>
-      <h1 className='text-xl bg-amber-400 font-bold'>Meme Generator</h1>
+      <HeadComponent/>
+      <MainComponent/>
     </>
   )
 }
