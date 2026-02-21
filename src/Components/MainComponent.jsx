@@ -33,7 +33,7 @@ export default function MemeComponent() {
         }))
     }
   return (
-    <div className="max-w-2xl mx-auto bg-gray-100 p-6 rounded-lg">
+    <div className="max-w-2xl mx-auto border-3 border-blue-300 p-6 rounded-lg my-10">
 
       
       <div className="flex gap-4 mb-6">
