@@ -62,7 +62,7 @@ export default function MemeComponent() {
         </div>
       </div>
 
-      <button className="w-full  bg-purple-600 py-4 rounded-md font-semibold  mb-6" onClick={getMemeImage}>
+      <button className="w-full  bg-purple-600 py-4 rounded-md font-semibold  mb-6 hover:cursor-pointer" onClick={getMemeImage}>
         Get a new meme image 🖼
       </button>
 
